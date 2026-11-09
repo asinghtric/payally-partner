@@ -22,12 +22,4 @@ export const auth = defineAuth({
       mutable: true,
     },
   },
-  accountRecovery: "EMAIL_AND_PHONE_WITHOUT_MFA",
-  senders: {
-    email: {
-      fromEmail: "no-reply@payally.world",
-      fromName: "Payally Partner",
-      replyTo: "inquiries@payally.world"
-    },
-  },
 });
